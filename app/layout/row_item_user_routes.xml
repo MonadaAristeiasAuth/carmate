@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/userRoutesCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:id="@+id/row_item_user_routes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fromLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="from"
+            />
+
+        <TextView
+            android:id="@+id/toLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="to"/>
+
+        <TextView
+            android:id="@+id/driver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="driver"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="date"/>
+
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="60dp"
+            android:background="@color/infoBlue"
+            android:textColor="@color/white"
+            android:text="people"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
